@@ -1,7 +1,6 @@
 module splatt
 
 # Write your package code here.
-using NLsolve,Distributions
 function add_number(a,b)
     a+b
 end
