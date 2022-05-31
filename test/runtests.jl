@@ -4,4 +4,3 @@ using Test
 @testset "splatt.jl" begin
     # Write your tests here.
 end
-y = rand(LogNormal(1, 1))

@@ -19,6 +19,7 @@ makedocs(;
             "tutorials/tutorials.md",
             ],
         "Theory" => "theory.md",
+        "API" => "api.md"
     ],
 )
 
