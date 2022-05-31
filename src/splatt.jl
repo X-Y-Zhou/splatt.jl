@@ -1,7 +1,7 @@
 module splatt
 
 # Write your package code here.
-
+using Random
 function add_number(a,b)
     a+b
 end
