@@ -10,6 +10,12 @@ function add_three_number(a,b,c)
     a+b+c
 end
 
+function lognormal_stats(x)
+    Mean = exp(x[1]+0.5*x[2]^2)
+    Var = (exp(x[2]^2)-1)*exp(2*x[1]+x[2]^2)
+    return [Mean, Var]
+end
+
 function lognormal_perturb(x; percentage = 0.1, initial_x = [0.0,10.0], rng = Random.seed!())
     if x == 0
         y = 0
