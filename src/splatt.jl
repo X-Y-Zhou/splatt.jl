@@ -1,7 +1,7 @@
 module splatt
 
 # Write your package code here.
-using Random
+using Random,NLsolve,Distributions
 function add_number(a,b)
     a+b
 end
@@ -10,7 +10,7 @@ function add_three_number(a,b,c)
     a+b+c
 end
 
-function lognormal_perturb1(x; percentage = 0.1, initial_x = [0.0,10.0], rng = Random.seed!())
+function lognormal_perturb(x; percentage = 0.1, initial_x = [0.0,10.0], rng = Random.seed!())
     if x == 0
         y = 0
     else
