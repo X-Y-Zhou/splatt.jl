@@ -2,6 +2,7 @@ module splatt
 
 # Write your package code here.
 using Random,NLsolve,Distributions
+import Random:seed!
 function add_number(a,b)
     a+b
 end
