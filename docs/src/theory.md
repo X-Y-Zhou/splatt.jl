@@ -1,1 +1,1 @@
-this is theory
+this is the theory
